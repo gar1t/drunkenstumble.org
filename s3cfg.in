@@ -1,0 +1,5 @@
+[default]
+access_key = XXX
+secret_key = YYY
+bucket_location = US
+use_https = True

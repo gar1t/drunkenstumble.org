@@ -1,0 +1,598 @@
+# -*-org-*-
+
+* Possible Topics
+
+Listed in no particular order. Partial, random, brain dump, notes, etc.
+
+** Drunken Stumble
+
+*** The Lean
+
+Gist: Ideas are important, but we keep two things in mind:
+
+- Ideas are not results -- they are guesses about the results we think we want
+
+- A result, which is the only thing we care about, can only be achieved through
+  a specific series of steps
+
+We cannot move from A (now) to Z (our imagined result) without steps. While we
+keep our end goal in mind, that only points us in a direction. It informs our
+"next obvious step", allowing us to decide what is most simulatenously "next"
+and "obvious".
+
+We are free to reevaluate our lean after every step, or series of steps (the
+stumble).
+
+E.g. a drunk knows he wants to go "thataway". He leans in that direction and
+lets gravity and nature's programming of his stumble reflex kick in. He moves
+through time and space in the general direction of "thataway" by a series of
+convulsive, inescapable, propelling maneuvers. He might veer off, or even
+fall. But he recovers, reassesses (gin soaked eyes) and leans again.
+
+The only purpose to the lean is to get the stumble going.
+
+So much for big ideas.
+
+*** The Stumble
+
+Gist: Only ever do the next obvious thing. The next obvious thing must be
+inescapable -- a stumble reflex. It doesn't require though. You just do it.
+
+The problem isdetermining what the "next obvious step" is.
+
+A drunk's stumble sequence is automatic. The body takes over. The mind is at
+rest. The only act of the mind is in the lean, which is through gin soaked
+eyes. The stumble moves him forward.
+
+Projects move toward a point their leaders think is a good place to be by a
+series of mindless, automatic steps. It's the most efficient way to achieve
+brilliant, beautiful results, by far. It's a Drunken Stumble.
+
+It really is just that simple.
+
+** Obviousness
+
+Drunken Stumble relies heavily, even exclusively, on the concept of
+"obviousness".
+
+From https://www.google.com/search?q=define%3A+obvious:
+
+  ob·vi·ous
+
+  Adjective
+  1. Easily perceived or understood; clear, self-evident, or apparent.
+  2. Predictable and lacking in subtlety.
+
+If you're working on anything that falls outside that definition, you're not
+doing Druken Stumble.
+
+Furthermore, Drunken Stumble insists that the next step be *next*. Something
+may be obvious, but it is not obviously next. In fact, if a step isn't next, it
+isn't obvious -- it's speculative. Only next steps can possibly be obvious.
+
+The work of Drunken Stumble is to identify what's obvious. It's actually quite
+hard.
+
+What is obvious to one person is not obvious to another. If there's
+disagreement, participants must dialog and negotiate until everyone agrees on
+what's unqequivocally obvious.
+
+Then you do what's obvious.
+
+What's obvious is a byproduct of experience and expertise. You can't be more
+experienced or knowledgable than you are. You can only develop better intuition
+over time. You sense of obviousness will change constantly.
+
+It's better to work with people who have experience solving the types of
+problems you're working on. It's better to work with people who ascribe to
+Druken Stumble, even if they've never heard of it.
+
+** Systems
+
+Gist: Some of us build things that are obviously systems. Application
+programmers don't traditionally fall into this category, but they should.
+
+Systems are made up of dinstinct parts, each serving a particular function or
+providing a set of services. Parts are connected in various ways: physically
+via wires or virtually using connections. Connections can take on various
+forms: persistent, message based, etc.
+
+To facilitate Drunken Stumble in programming, applications can be built using
+components that are connected. This is a system.
+
+Systems can be evolved in ways that make them well suited for Drunken Stumble
+style evolutionary steps.
+
+Traditional application development models encourage monolithic rather than
+federated design.
+
+If you can build a system using small, independent components, making
+incremental changes is easier:
+
+- Adding new features is a matter of adding new components
+
+- Features can be modified by replacing components, or phasing them out over
+  time
+
+- Features that are not used can be removed by removing the applicable
+  components
+
+** Perfection
+
+Gist: Products and services that are considered to be very high quality
+(perfect) didn't start out that way. Just because you have high standards and
+work hard, doesn't mean you'll achieve perfection. Perfection comes with
+experimentation and continual improvement.
+
+It's frustrating working on a project that insists on zero defects. Getting
+something perfect -- no errors -- is very hard. It's stressful.
+
+It's also nearly impossible...
+
+Take mission critical functions like air travel, space travel, etc. Even these
+follow drunken stumble.
+
+** Minimalism (Less As A Feature?)
+
+The first time I used Google, I was impressed by how the scarcity of features
+felt like a feature. I used Google specifically because it had less. I avoided
+other search engines because they had more.
+
+Drunken stumble provides by default a minimal necessary feature set and nothing
+more. That in itself is feature richness.
+
+Other points (may fall elsewhere):
+
+- Proprietary software and feature inflation (charging for something drives
+  speculative features, etc.)
+
+** Failure
+
+Gist: make the cost of failure low at every level. "Too big to fail, too big"
+is the minimum standard for scoping functionality.
+
+How does DS deal with "mission critical" targets like heart valves, spaceships,
+and air traffic control? Pavlovian response: DS is the *only* way to *possibly*
+build *anything* mission critical!
+
+** Design
+
+We often mistake result for design. It's instinctive to view something and say,
+"what a beautiful design". Tuna, Sharks, Dolphins -- all drop dead gorgeous
+engineeringq. The achievement is breathtaking. None were designed.
+
+** Architecture
+
+This term is a terrible influence on programmers.
+
+Real architects design buildings. They go to school and become licensed. That
+moniker costs them!
+
+If you've been hacking code for a few years and manage to get a half way decent
+technical solution implemented, you call yourself an architect.
+
+Bullshit.
+
+Somewhere along the way (would be interesting to research the origin) building
+software was compared to building physical structures.
+
+When you build a physical structure, you're subject to factors that don't apply
+to software:
+
+- Gravity
+- Weather
+- Sunlight
+- Fire
+- Animals
+- Dirty Dishes
+- Shit and Piss
+
+Thank god we're free to build software without having to constantly subject our
+design to this sort of banality.
+
+But we do ayway. Do any of these terms sound familiar:
+
+- Infrastructure
+- Foundation
+- Plumbing
+- Wiring
+- Firewall
+
+Drunken Stumble has no concept of architecture. Architecture is design and
+design only exists in retrospect.
+
+Drunken Stumble uses an organic model to represent the things we build.
+
+The term "foundation" makes perfect sense for a building. If you want to stack
+things on top of one another, you consider gravity. If you something's too
+heavy, it crushes what's below it. You need something strong on the bottom.
+
+Why do we draw software architectural diagrams with the strong bits on the
+bottom and the ligher bits on top? A magical gravitational force must somehow
+apply to our software design.
+
+We need to stop using the term architect. It's stealing a hard earned
+designation from actual architects and it poinsons our thinking.
+
+We are tinkerers or experimenters, not designers -- and certainly not
+architects.
+
+If you can't think of a better term, call yourself a programmer. Programmer
+applies to both software and hardware systems.
+
+** Forking
+
+Evolution forks all the time. Constantly. We exist today because of billions of
+forked projects.
+
+Forking is copy and paste. It's not persistent inheritence. Inheritence in
+software is misunderstanding of generic inheritence, which of course is copy
+and paste.
+
+Forking lets you keep things small and independent. (Nested vs flat).
+
+** Revolution
+
+You have a revolution only in retrospect. You can try for a revolution, but
+odds are you'll end up with a little noise, then nothing. You will have spent
+emense time and effort, all justified by the prospect of revolution. A big bet
+with poorly measured odds.
+
+Revolution is like fire. It needs an ignition, fuel, and a particular chain
+reaction to work. It's easy for a fire to go out. Without the right
+combination, you get a a little light, then nothing.
+
+It'd be interesting to chronolog some well known revolutions and show they were
+in fact, Drunken Stumbles -- evolutionary steps that triggered something
+unexpected and big.
+
+Some maybe interesting revolutions:
+
+- One of the Mac products -- perhaps iPod
+- Minecraft
+- Some political revolution
+
+** Mistakes
+
+Any change to a sytem is a mutation, which is what drives evolution. The key is
+to select what works and kill what doesn't, or let it die from natural causes.
+
+Druken Stumble is partially about making mistakes. It embraces them as
+opportunities to discover something that works well, and select it for
+preservation.
+
+Don't try to make mistakes, but don't be the slightest bit afraid to make
+mistakes.
+
+[[Failure]] is tied to this. If your changes don't represent much risk to the
+success of a system -- e.g. because they're small and isolated -- then you're
+freer to make them.
+
+Smaller mistakes are better than big mistakes. DS lets you make small mistakes.
+
+** Ego
+
+The starting point of Drunken Stumble is the assertion that we're like a drunk
+who can't walk straight. Our judgement is impaired by the affects of alcohol on
+our brain.
+
+This point requires that we accept that our judgement is impaired. If you can't
+accept that, you can't use Drunken Stumble.
+
+A drunk who doesn't know he's drunk is an embarassment to himself and people
+around him. These are the egoists who think their ideas should be implemented
+because they're correct de jure. They think by virtue of their IQ, education,
+class, gender, experience -- whatever -- they can solve problems by imagining a
+solution. They're the drunk at the end of the table who's trying to be funny or
+smart or charming, but who's comical at best and an antisocial asshole dipshit
+at worst. Well, worst, he shows off how he can breathe fire with 100 proof
+vodka and sets the bar ablaze killing everyone in it.
+
+The smart drunk knows his judgement and physical abilities are impaired and
+makes the best of it using the Lean, then Stumble.
+
+Imagine Thomas Edison taking offense that XXX (what actually worked) turned out
+to be the key to a working lightbulb, and not YYY (what he thought initially
+would work). It's absurd -- the process was simple: get it to work. Whatever
+works is what's best. And how can you possibly know what works until you see it
+working?
+
+Egoistic designers take their ideas so personally that they insist others
+implement them, independent of the result. How many bad designs have been
+implemented without regard to any concept of "working"?
+
+And lest you think you're innocent of ego-driven errors, consider how you may
+feel when faced with someone else's solution to a problem you've solved. Here
+are some ego driven responses:
+
+- It doesn't do everything mine does
+- I thought of that already and decided to do somethign else
+- I made the same mistakes when I was starting out
+
+Some ego-free responses might be:
+
+- What works well with your approach?
+- How can I integrate the best of your approach with mine?
+- Maybe I can throw mine away and use yours
+
+This is an improvement over ego based responses. But Drunken Stumble is still
+better because it removes right and wrongfrom the equation. It simply says:
+
+- Awesome job
+
+In Drunken Stumble, you only ever do the next obvious thing. If you've already
+solved a problem, who cares what someone else did with a similar problem? If
+there's a problem remaining and the new approach can help, then *maybe* the
+obvious next step is to integrate the solutions. But chances are, assuming your
+solution even works partly, your next step is probably *not* to move pieces
+around until you have integrated two solutions -- it's to do something worth
+while.
+
+The value of knowledge exchange, where you learn how someone else solved a
+similar problem, is that it influences what is subsequently obvious to you. And
+that of course determines what you work on next.
+
+Drunken Stumble requires no ego, no guilt, no greater moral equation.
+
+** Estimation / Schedules
+
+Gist: The problem with hitting targets is not out ability to estimate, it's
+with our obsession over having and hitting targets. It's a non problem. Every
+time.
+
+Jesus Christ, this is such an epidemic problem in our industry.
+
+Organize your processes so that you announce *after* something already
+works. Just time shift FFS.
+
+Software is not likel logistics. Humans have been moving goods around the world
+using various transport systems for literally thousands of years. It's been so
+repeated and is such a stable system that it's *trivial* to estimate
+accurately.
+
+Software is *always* something completely new. The analog to physical logistics
+is not software *development* but software *configuration*. Just because human
+can implement JIT manufacturing through effective logistics management doesn't
+mean they can do the same for software.
+
+It's a matter of experience. The more experience you have with a problem the
+better you are at predicting an outcome. If software is new, it's harder to
+predict.
+
+Schedules, predictions, targets, etc. are lazy managements way to get people to
+work insanely hard, which much feel very good to those managers.
+
+South Park sucks now because they obvious have nothing to say anymore. Their
+six day dealine is great at producing 22 minutes of content every six days, but
+terrible at producing anything worth watching.
+
+Does this all just come down to leveraging people's time most effectively? If
+Drunken Stumble says "never plan, just stumble" how can an organization commit
+to paying anyeone any amount of money each month? The cost is fixed, the
+outcome is variable. Making schedules and targets makes it look like the
+outcome is also fixed. You make the outcome match the cost.
+
+Maybe it's better to view these ventures as bets. You have a fixed cost --
+paying a team of developers each month to work on Drunken Stumble -- and a
+variable result. This of course the reality, regardless of whether you manage
+strictly by schedules and target. If your venture is predictable, like a
+cleaning service, it's less of a bet.
+
+So then Drunken Stumble is the most effective way to optimize the result of an
+uncertain process.
+
+** Pressure
+
+Gist: man oh man, is it great to Drunken Stumble -- just clear your head of
+speculation and do what's right in front of you. What's obvious.
+
+** The Watchmaker
+
+If you walk along the beach and discover a watch, pick it up and consider its
+origin, you will reasonably conclude that the watch was created by a watch
+maker. Never for a moment do you think the watch evolved out of a series of
+random coincidences. It was definitely created.
+
+You'd be right -- it was created, but not by a watch maker.
+
+The watch is a result of an incalcuable number of incremental changes that
+occurred over eons.
+
+Let's pick a point in the series of changes to start: the first clock. It was
+probably a stone that cast a shadow on the ground as the sun moved across the
+sky. Over time, humans discovered that the shadows followed a predictable path
+each day. By watching the path, humans could tell at any point how close or far
+the sun was to setting.
+
+Then a clever human made some marks in the ground to break the path into
+regular segments. Now humans could tell "time".
+
+Then some humans started using engraved stone, which wouldn't be affected by
+rain and wind.
+
+And so the primitive sun dial evolved, step by step, through experimentaion and
+selection, until it served as humankind's de facto time piece.
+
+(Fill in other time keeping techniques.)
+
+Time keeping instruments further evolved into small, portable devices that
+humans could carry with them -- pocket watches. Over hundreds of years the
+knowledge of pocket watch building accumulated in books and traditions. The
+machines that fabricated the watch gears improved, step by step. Different
+watchmakers experimented with different techniques. Some failed miserably,
+others succeeded wildly. Manufactureres both competed and collaborated,
+subverted and shared, folded and prospered -- all the while the pocket watch
+got better and better..
+
+Fast forward to our beach where the pocket watch sits, waiting to be discovered
+by our philosopher. As we've seen, it's not there as the creative expression of
+a single watch maker, but as the result of a historic progression that started
+with the most primitive, accidental time keeping and ended with the application
+of thousands of years of knowledge and accumulated human skill.
+
+Our pocket watch may have a creator, but the creator is a process, not a peron.
+
+** Practical Advice
+
+These chapters could be in a separate book. Or maybe each chapter has a
+Practical Advice section that gives the reader something to tinker with hands
+on.
+
+*** No branches / always commit to and deploy master
+*** Service orientation
+
+* Random Thoughts
+
+** GPL
+
+What impact does open source have? GPL? Transparency, incrementalism, etc.
+
+** Generalized Solutions, Or The Problem With X
+
+Developers like to build speculatively -- code for reuse.
+
+Here's an example of a specific, concrete problem -- I'm starting at point 0
+my "next obvious step" is point 1:
+
+  0 ---> 1
+
+But because I'm a savant, I'm not interested in squandering my genius on
+trivial problems. I introduce a new problem: what is the general model for
+solving problems like this? I'll call that "X" -- it represents a generalized
+solution. Once I have X, we can move to point 1.
+
+Like this:
+
+  0 ---> X -> 1
+
+Genius! Now when I have a similar problem, I can solve it with a fraction of
+the time and effort:
+
+  0 ---> X -> 1 -> 2
+
+and so on:
+
+  0 ---> X -> 1 -> 2 -> 3
+
+But what happens with the first case -- where I don't have X? I have a choice:
+
+- Implement X this time, then to point 2
+
+- Solve point 2 directly, not even thinking about X
+
+If I use my genius now -- as opposed to earlier -- I have a second data point
+to help me understand what X is. I'll call that X' (X prime) because it's more
+informed than the original X:
+
+  0 ---> 1 --> X'
+
+And to point 2:
+
+  0 ---> 1 --> X' -> 2
+
+But instead I refrain and only do what's obvious -- move to point 2. If point 2
+is in fact similar to point 1, I can reuse my solution for point 1 to get to
+there faster:
+
+ 0 ---> 1 --> 2
+
+But there's a chance that point 2 is completely different from point 1! That's
+not a problem either -- I just take a little longer. In that case, X would have
+been useless! Actually, X would have been *worse* than useless. It would have
+tempted me to redefine point 2 so my genius-inspired-investment in X could be
+justified!
+
+Consider the implications of X on problems that don't fit X. If you have X, you
+have an investment that will be profitable only after you save enough time and
+effort in moving to future points. You have an incentive to find points that
+fit X, whether they're legitimate or not. Your genius (and maybe job) is at
+stake! The expensive message bus, database, language training, server farm,
+rules engine, custom framework, service oriented architecture (the list is
+fantastically long) are all Xs begging, pleading for problems that pay off
+their investment. Organisms looking for food to keep them alive.
+
+But back to the exercise.
+
+I can introduce new points (3, 4, 5, and so on) and at each step I face the
+same choice: do I first introduce a generalized solution and only then move to
+the next point, but with the full affect of brilliant design to help? Or do I
+move to the next point directly without the slightest thought of design?
+
+Consider this:
+
+- The longer I delay a generalized solution the more information I'll have to
+  get "general" right!
+
+- If I continue to delay a general solution, it may turn out that I never need
+  one!
+
+- If X truly exists, at some point in the sequence it will *become* the next
+  point, manifesting unambiguously as the next next obvious step!
+
+All of these points favor the decision for deferring X and only ever taking the
+next step. But the last point is decisive. X can always exist, but only in
+theory. It manifests when it's *obviously next*, with nary a moment spent on
+speculation or design!
+
+The benefit:
+
+- I never pay the cost of being wrong about X (and at any point, a generalized
+  solution that isn't obviously the next step will have a statistically higher
+  likelihood of being wrong than something that is obvious)
+
+- X -- should I ever actually arrive there -- will be absolutely, fanstically,
+  brilliantly correct -- and *then* I will take full credit for being a savant
+  genius designer!
+
+Let's consider a concrete example of this process... TODO
+
+Possible ideas:
+
+- Introduction of Jesper / CEP as "the brain"
+- Various "HA" scenarios
+
+Look for something that, given Drunken Stumble, led to an "innovation" that
+turned out to be revolutionary because X was deferred. I.e. letting enough
+points pass by without X to generate a different problem. E.g. what happens
+when you copy and paste code all over the place and end up with a terrible
+problem when you need to make a change that's common to everything? Tools or
+shared libraries that come out, etc.
+
+** Bloatware
+
+It's tempting to overload this meme with every conceivable good idea we have
+about anything. E.g. the chapter idea list is starting to read like a grab bag
+of universal principles, philosophies, and religious dogma. It might hard to
+draw the right line around this concept -- but I'm certain that it cannot, will
+not, must not become bloatware.
+
+** The Process
+
+- Use github, right away
+- Governing licenses? I don't care, whatever is easiest
+- Avoid servers if possible
+
+I was tempted to create a drunkenstumble github account, but I've tried that
+with a couple other projects and it's pointless each time. Anyone can have his
+own repo in his own account and we collaborate on the content the way we do
+with any project -- forks, patches, pull requests, whatever. Let's not have a
+centralized anything!
+
+I do think we need drunkenstumble.org though. Practical.
+
+But we have to open up control over it. E.g. if we use CloudFront or S3
+website, we can give share admin rights using AWS ACLs, etc.
+
+* Common Questions or Points
+
+** Just don't drink
+
+You don't have that option. It's not that we chose to be drunk -- we are
+drunk, as it applies to design. The only way to be sober is to know the
+future. And of course we don't.
+
+See [[Design and Result]].
+
+** Sometimes you need a revolution, not evolution
+
+See [[Revolution]].
