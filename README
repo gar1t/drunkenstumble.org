@@ -3,3 +3,18 @@ drunkensumble.org
 =================
 
 Web site to facilitate communication and collaboration on Druken Stumble.
+
+This is a blogofile project. Use blogofile to generate a static HTML site for
+blog posts, etc.
+
+You need a working blogofile (0.8b1 is known to work):
+
+http://www.blogofile.com/
+
+To build the site:
+
+$ make
+
+To run the site locally:
+
+$ make run
