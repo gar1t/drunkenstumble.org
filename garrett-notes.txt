@@ -596,3 +596,71 @@ See [[Design and Result]].
 ** Sometimes you need a revolution, not evolution
 
 See [[Revolution]].
+** Monkeys at a Keyboard
+
+Drunken Stumble is not random flailing. Drunks might appear to behave
+unpredictably, even randomly, but they're not. They have a goal, and some motor
+facility. They strive for the goal, subject to the constraints of the
+environment. But they have a goal.
+
+That's the lean.
+
+In an argument against evolution, one might claim that no number of monkeys
+typing and keyboards will create the works of Shakespeare. Or perhaps, it was
+an argument *for* evoluation: given enough time, the monkeys could
+succeed. Either way, this isn't Drunken Stumble.
+
+Drunken Stumble is the weasel program:
+
+http://en.wikipedia.org/wiki/Weasel_program
+
+The weasel program demonstrates that, with a goal, random mutations can be
+selected to reach that goal with surprising efficiency.
+
+Let's first though consider the purely random scenario of monkeys typing on a
+keyboard to create the statement: "METHINKS IT IS LIKE A WEASEL". From
+the Wikipedia page:
+
+  A computer program could be written to carry out the actions of Dawkins's
+  hypothetical monkey, continuously generating combinations of 26 letters and
+  spaces at high speed. Even at the rate of millions of combinations per
+  second, it is unlikely, even given the entire lifetime of the universe to
+  run, that the program would ever produce the phrase "METHINKS IT IS LIKE A
+  WEASEL".
+
+So the naive charge against Drunken Stumble is that is not efficient. How many
+projects can tolerate the "lifetime of the universe" estimated completion date?
+
+But fortunately, Druken Stumble has a secret -- the lean.
+
+Again, from the same Wikipedia page, quoting Richard Dawkins::
+
+  We again use our computer monkey, but with a crucial difference in its
+  program. It again begins by choosing a random sequence of 28 letters, just as
+  before ... it duplicates it repeatedly, but with a certain chance of random
+  error – 'mutation' – in the copying. The computer examines the mutant
+  nonsense phrases, the 'progeny' of the original phrase, and chooses the one
+  which, however slightly, most resembles the target phrase, METHINKS IT IS
+  LIKE A WEASEL.
+
+A Drunen Stumble, with the synthesis of mechanical, nearly irrelevant random
+stumbles, and a hypothesized goal, can achive remarkable results without
+design.
+
+Here's a drunken stumble (again, ripping off Wikipedia -- need to donte more):
+
+  Generation 01:   WDLTMNLT DTJBKWIRZREZLMQCO P
+  Generation 02:   WDLTMNLT DTJBSWIRZREZLMQCO P
+  Generation 10:   MDLDMNLS ITJISWHRZREZ MECS P
+  Generation 20:   MELDINLS IT ISWPRKE Z WECSEL
+  Generation 30:   METHINGS IT ISWLIKE B WECSEL
+  Generation 40:   METHINKS IT IS LIKE I WEASEL
+  Generation 43:   METHINKS IT IS LIKE A WEASEL
+
+The weasel program sheds some interesting light on this subject:
+
+- The catch phrases is "cummulative selection", which depends on a sort of
+  memory -- to use Druken Stumble, you need memory. This seems natural for
+  systems though: code, servers, software, etc. are hard to simply
+  erase. But collective knowledge tools like revision control systems, wikis,
+  freely available information, etc. play a role here.
