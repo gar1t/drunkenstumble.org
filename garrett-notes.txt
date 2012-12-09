@@ -583,13 +583,93 @@ I do think we need drunkenstumble.org though. Practical.
 But we have to open up control over it. E.g. if we use CloudFront or S3
 website, we can give share admin rights using AWS ACLs, etc.
 
+** Hang Man
+
+http://www.hangman.no/
+
+In playing this for a while, a few things occur to me:
+
+- This is drunken stumble -- there's lean (completing the word) and stumble
+  (picking each letter)
+
+- There's plenty of work -- this is not random flailing!
+
+- The work is in making the most rational decision (obviousness?) at each stage
+
+Hang Man illustrates the value of going one step at a time. If you were allowed
+to fill in more than one letter at a time, would you? You get feedback, yes or
+no, at each step. Filling in more than one letter at a time is both more work
+and provides less information.
+
+Consider this hangman problem:
+
+  A "beer maker":  _ _ _ _ _
+
+If I guess "BELLS" and I get it wrong, what have I learned? Nothing. It took me
+more work to guess the whole word and I have nothing to show for it.
+
+But what if I guess "E" -- the most common letter in the English language?
+That's a defensible "next obvious step":
+
+  _ _ _ _ E
+
+Okay, I *think* this is "STONE", but I've learned a lesson: never do work you
+don't need to. So I'm going to guess "S".
+
+Miss!
+
+Hmph. I was pretty sure it was "STONE" but it's not. Good thing I only spent
+one letter guessing!
+
+But what was obvious before is a mystery now. I'm going back to my old
+strategy: guess commonly occurring letters. Trying "O":
+
+ _ O _ _ E
+
+This helps! I think it's "ROGUE", but it's still a guess. Need more data, so I
+guess "R".
+
+ R O _ _ E
+
+Okay, I *know* it's "ROGUE" so I blurt that out in a victory cheer!
+
+Wrong again!
+
+You're kidding -- now I'm in a rage! I gather myself and return to the process
+that's worked best so far: pick the most likely letter based on statistical
+likelihood. I need a consonant and I guess the most common one, "T":
+
+ R O T _ E
+
+WTF is this??
+
+Turns out, after a few more guesses, it's "ROTHE" -- the last name of a home
+brewer who one some awards back in 2005. Seriously, Seriously, WTF!
+
+I had been thinking commercial "beer makers" the whole time.
+
+Lessons:
+
+- There's no value in guessing the whole word -- you're just showing off
+
+- There's plenty of work and strategy and cleverness in picking the next
+  letter -- show off by how smart your "next obvious step" is
+
+- Even if a step turns out to be wrong (you weren't smart enough, or maybe you
+  were too smart) you can try again, next time with more information
+
+- Even if you're as dumb as a lout, you can solve this problem by sheer
+  persistence (brute force guessing)
+
+- You might be surprised by the final answer
+
 * Common Questions or Points
 
 ** Just don't drink
 
-You don't have that option. It's not that we chose to be drunk -- we are
-drunk, as it applies to design. The only way to be sober is to know the
-future. And of course we don't.
+You don't have that option. It's not that we chose to be drunk -- we are drunk,
+as it applies to design. The only way to be sober is to know the future. And of
+course we don't.
 
 See [[Design and Result]].
 

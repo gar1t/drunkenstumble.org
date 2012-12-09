@@ -6,7 +6,7 @@ categories: General
 
 Let the Great Stumble begin!
 
-[Garret Notes](../garrett-notes.txt)
+[Garret Notes](/garrett-notes.txt)
 
 ![Drunken Stumble](/img/drunk.jpg "Drunken Stumble")
 
