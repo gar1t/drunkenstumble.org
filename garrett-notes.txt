@@ -600,23 +600,6 @@ of universal principles, philosophies, and religious dogma. It might hard to
 draw the right line around this concept -- but I'm certain that it cannot, will
 not, must not become bloatware.
 
-** The Process
-
-- Use github, right away
-- Governing licenses? I don't care, whatever is easiest
-- Avoid servers if possible
-
-I was tempted to create a drunkenstumble github account, but I've tried that
-with a couple other projects and it's pointless each time. Anyone can have his
-own repo in his own account and we collaborate on the content the way we do
-with any project -- forks, patches, pull requests, whatever. Let's not have a
-centralized anything!
-
-I do think we need drunkenstumble.org though. Practical.
-
-But we have to open up control over it. E.g. if we use CloudFront or S3
-website, we can give share admin rights using AWS ACLs, etc.
-
 ** Hang Man
 
 http://www.hangman.no/
@@ -810,3 +793,34 @@ The weasel program sheds some interesting light on this subject:
   systems though: code, servers, software, etc. are hard to simply
   erase. But collective knowledge tools like revision control systems, wikis,
   freely available information, etc. play a role here.
+
+* drunkenstumble.org
+
+- Use github, right away
+- Governing licenses? I don't care, whatever is easiest
+- Copyright?
+- Avoid servers if possible
+
+I was tempted to create a drunkenstumble github account, but I've tried that
+with a couple other projects and it's pointless each time. Anyone can have his
+own repo in his own account and we collaborate on the content the way we do
+with any project -- forks, patches, pull requests, whatever. Let's not have a
+centralized anything!
+
+We need drunkenstumble.org though.
+
+** Rules?
+
+This starts with Pieter and me. We'll use Druken Stumble on this project.
+
+For decisions that are hard to retract, we should agree. Mutual veto, but more
+importantly, Druken Stumble mandadates that what's "obviously next" be
+obviously next to all involved parties.
+
+For decisions that can be easily retracted, we should be free to experiment
+without burdening one another with undue process.
+
+Each should be able to post an article freely under our own names. We don't
+have to agree on points that are expressly our own.
+
+There's the matter of copyright and licensing.
