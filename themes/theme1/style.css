@@ -79,7 +79,7 @@ div#header {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h2 {
@@ -315,8 +315,8 @@ div#credits p {
 }
 
 .blog_post_title {
-    font-size: 18px;
-    height: 18px;
+    font-size: 20px;
+    height: 20px;
     font-weight: bold;
     margin-top: 10px;
 }

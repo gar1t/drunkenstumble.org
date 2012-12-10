@@ -441,6 +441,40 @@ on.
 *** No branches / always commit to and deploy master
 *** Service orientation
 
+** Conflict Resolution
+
+This happens all the time: a team can't agree on what's obviously next.
+
+What does Druken Stumble say?
+
+1. List assertions, claims, goals, etc. that are mutually agreed upon --
+   i.e. common ground
+
+2. List criteria for agreement on what's obviously next, again -- what do you
+   agree on
+
+3. List questions that you both agree, if answered, will illuminate the above
+   criteria
+
+3. Find tasks (steps) that can help answer these questions -- work on the ones
+   that obviously next
+
+4. If you can't agree on what's obviously next (i.e. there are questions or
+   doubts in either part), consider a tie breaker who can help sway one side or
+   the other -- the tie breaking process must be mutually agreeable
+
+5. If after all this, you can't identify a single obviously next step, fork the
+   work streams
+
+   - Fork in a way that will likely resolve or at least shed light on the key
+     differences
+
+   - Keep the fork as small as possible and for as short as possible
+
+6. If the forking process fails to make real progress -- progress that's
+   obvious to everyone involved -- consider homocide or other traditional
+   subversion tactics
+
 * Random Thoughts
 
 ** GPL
@@ -662,6 +696,38 @@ Lessons:
   persistence (brute force guessing)
 
 - You might be surprised by the final answer
+
+** DNA / Mess
+
+It's interesting to see how Fed up out DNA is:
+
+- Ancient DNA that serves no purpose
+- Virus DNA
+- What else?
+
+Sheds a new light on refactoring.
+
+If nature tolerates a certain level of mess, can't we?
+
+I've always been a big advocate of constant refactoring -- code, systems,
+etc. are like gardens that you need to weed and prune at regular intervals. If
+you don't they get overgrown and start to languish.
+
+Maybe that's true, but maybe it's bullshit.
+
+I suspect the key is in keeping things small and independent. If something is
+monolithic and intertwined (ball of twine) it's hard to evolve it. If something
+is small and independent, it can be "bad" and left around to be phased
+out. Like old DNA strands.
+
+I wonder if "only ever doing the next thing" tends toward small and
+independent.
+
+Or put the other way, the only way to get monoliths is to design them.
+
+It's hard to imaging the Java SDK class hierarchy ever resulting from Drunken
+Stumble. Hell, or class inheritance for that matter. That's all in the camp of
+"clever thinking".
 
 * Common Questions or Points
 
