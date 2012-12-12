@@ -241,7 +241,8 @@ For a more formal treatment see
 To illustrate the problem of design, let's add a new rule: instead of guessing
 a letter, you're free to guess the whole word. If you guess the word, you win
 in one step. If you fail to guess the word, your man moves a step toward the
-gallows.
+gallows. (TODO: should have a bigger penalty -- maybe move 2 steps toward
+death).
 
 Now, a game!
 
