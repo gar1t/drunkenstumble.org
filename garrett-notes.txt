@@ -220,6 +220,10 @@ architects.
 If you can't think of a better term, call yourself a programmer. Programmer
 applies to both software and hardware systems.
 
+Here's great fodder:
+
+http://bloggemdano.blogspot.in/2013/01/how-to-become-software-architect.html
+
 ** Forking
 
 Evolution forks all the time. Constantly. We exist today because of billions of
