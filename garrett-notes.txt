@@ -844,3 +844,38 @@ Each should be able to post an article freely under our own names. We don't
 have to agree on points that are expressly our own.
 
 There's the matter of copyright and licensing.
+* Evolution
+
+I don't like Drunken Stumble anymore :(
+
+Mainly because there's a better analog: Evolution
+
+Drunken Stumble wants to be Evolution. It's a cute, less explanatory version.
+
+Precepts:
+
+- Cummulative selection + change, applied recursively
+
+- Each step provides sustainable value, or is rejected
+
+- Steps are selected that increase survivability, or else the cummulative
+  selection breaks down, eventually leading to extinction
+
+There is no design in Evolution. Change is made based on a guess for
+improvement. Changes that improve the system's survivability are
+accepted. Changes that harm the system's survivability are rejected.
+
+What is improved survivability? That's the "lean" in Drunken Stumble -- it's
+entirely dependent on the organism and its ecosystem.
+
+** Evolution vs Revolution
+
+This is the gradualist vs punctuationist debate.
+
+On the question of adjusting a microscope that is almost, but not quite
+perfectly in focus, R.A. Fisher:
+
+ It is sufficiently obvious that any large derangements will have a very small
+ probability of improving the adjustment, while in the case of alterations much
+ less than the smallest of those intentionally efected by the maker or the
+ operator, the change of improvement should be almost exactly one half.
